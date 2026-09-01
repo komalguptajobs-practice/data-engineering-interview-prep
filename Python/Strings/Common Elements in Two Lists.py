@@ -1,10 +1,11 @@
+
 list1 = [1, 2, 3, 4, 5]
 list2 = [3, 4, 5, 6, 7]
 
-lis3 = []
+list3 = []
 
-for i in lis1:
-    if i in lis2:
-        lis3.append(i)
+for i in list1:
+    if i in list2:
+        list3.append(i)
 
-print(lis3)
+print(list3)
