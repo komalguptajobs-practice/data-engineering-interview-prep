@@ -1,0 +1,16 @@
+#Find the first character that appears only once.
+text = "swiss"
+dic ={}
+
+for i in text:
+    if i in dic : dic[i] = dic[i]+1
+    else : dic[i] = 1
+
+
+
+for i,j in dic.items():
+    if j==1 :
+        first = i
+        break
+
+print (first)
